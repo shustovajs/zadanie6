@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+body {
+    margin:0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2.2px;
+}
+
+
+.wrapper {
+    width: 1395px;
+    margin: 0 auto;
+}
+.right {
+    float: right;
+    margin:30px 0px;
+}
+.logo {
+    display: inline-block;
+    margin:30px 0px;
+    font-size: 40px;
+}
+h3 {
+    padding-top: 220px;
+    text-align: center;
+    font-size: 30px;
+}
+.about h3, .about-text {
+    display: inline-block;
+    float: right;
+    width: 540px;
+    padding-right: 5%;
+}
+.about-text {
+    font-size: 22px;
+}
+.img-left {
+    float: left;
+
+}
+.about {
+    margin-top: 130px;
+    height: 950px;
+}
+.organic {
+    height: 980px;
+}
+.organic-text {
+    display: inline-block;
+    float: left;
+    width: 540px;
+    padding-left: 100px;
+}
+.img-right {
+   float: right;
+
+}
+p {
+    font-size: 22px;
+}
+
+
+textarea {
+    resize: vertical;
+}
+.meat {
+    background: url(../img/meat.jpg);
+    height: 930px;
+    margin-top: 210px;
+
+}
+.stake {
+    background: url(../img/steak.jpg);
+    height: 930px;
+    margin-top: 210px;
+}
+.text-meat {
+    display: inline-block;
+    background-color: #73737380;
+    color: #ffffff;
+    width: 545px;
+    height: 790px;
+    float: right;
+    padding: 100px 80px;
+    margin: 75px;
+
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+.menu p {
+    text-align: center;
+    padding: 0 150px;
+    line-height: 2;
+}
+.bold {
+    font-weight: bold;
+}
+hr {
+    width: 210px;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+.star {
+    display: inline-block;
+    text-align: center;
+}
+.blockstar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100px;
+}
+button {
+    padding: 45px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 30px;
+    background: none;
+    border: 10px solid black;
+    margin-top: 80px;
+}
+.reservation p {
+    text-align: center;
+
+}
+.reservation h2 {
+    margin-top: 200px;
+}
+.tea {
+    background: url(../img/tea.jpg);
+    height: 930px;
+    margin-top: 210px;
+}
+.text-tea {
+    display: inline-block;
+    background-color: #21212180;
+    color: #ffffff;
+    width: 545px;
+    height: 790px;
+    float: right;
+    padding: 100px 80px;
+    margin: 75px;
+}
+.contact h2
+{
+    padding-bottom:20px ;
+}
+.contact {
+    margin-top: 200px;
+    text-align: center;
+    padding: 0 150px;
+
+}
+.contact h2:nth-last-child(1) {
+    margin-top: 200px;
+
+}
+.button{
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 30px;
+    background: none;
+    border: 10px solid black;
+    margin-top: 80px;
+
+}
+.button button {
+    border:none;
+}
+
+.email {
+    border: none;
+    padding: 50px;
+    float: left;
+    font-size: 30px;
+    width: 700px;
+}
+.subscribe {
+    border: none;
+    background: none;
+    float: right;
+    font-size: 30px;
+    margin: auto;
+    width: 200px;
+    border-left: 1px solid;
+}
+.subscribe:hover {
+    color:#555555;
+}
+.footer {
+    width: auto;
+    height: 200px;
+    background: #000000;
+    margin-top: 230px;
+}
+.footer h2 {
+    color: white;
+    padding: 70px;
+}
+
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media screen and (max-width: 1390px){
+    .wrapper{
+        width: 95%;
+        padding: 0px 30px;}
+    .eage {
+        width: 100%;
+    }
+    img:not(.menu):not(.eage):not(.meat) {
+        width: 50%;
+    }
+    .meat {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 980px){
+    .wrapper {
+        width: 90%;
+        padding: 0px 10px;
+    }
+    img:not(.menu):not(.eage) {
+        width: 40%;
+    }
+    p {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 20px;
+
+        margin-top: 30px;
+    }
+    .organic-text, .about-text {
+        display: inline-block;
+        font-size: 10px;
+        width: 350px;
+        height: 500px;
+        padding: 10px;
+        margin: 0px;
+    }
+    .about-text {
+        float: right;
+    }
+    .about h3 {
+        width: 300px;
+        padding-top: 30px;
+    }
+    .about {
+        margin-top: 30px;
+    }
+}
+
+
